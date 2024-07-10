@@ -35,7 +35,7 @@ nav{
 }
 .banner{
 text-align: center;
-max-width: 980px;
+max-width: 1140px;
 margin: 0 auto;
 padding: 45px 25px;
 }
@@ -66,14 +66,14 @@ padding: 45px 25px;
 }
 .beginning{
     text-align: center;
-    width: 1110px;
-    margin: 140px 200px;
-    padding-left: 200px;
+    width: 1140px;
+    margin: 0px auto;
+    padding: 50px;
 }
 /* section extra */
 .change{
-    max-width: 880px;
-    margin: 50px auto;
+    max-width: 1140px;
+    margin: 0px auto;
    display: flex;
    justify-content: space-between;
 }
@@ -102,7 +102,7 @@ padding: 45px 25px;
 }
 /* coding style */
 .coding{
-    max-width: 880px;
+    max-width: 1140px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
@@ -117,6 +117,7 @@ padding: 45px 25px;
 /* inspiration */
 .inspiration{
     text-align: center;
+    
 }
 .hero{
     font-size: 20 px;
@@ -124,4 +125,87 @@ padding: 45px 25px;
 }
 .hero-p{
     font-size: 16px;
+}
+/* skills styles */
+.skills-description{
+    margin: 30px auto;
+    padding: 35px;
+} 
+.skill-title{
+margin: 30px auto;
+padding: 35px;
+}
+.title-center{
+    text-align: center;
+    max-width: 1140px;
+    margin: 10px auto;
+}
+.skills-container{
+ display: flex;
+ gap: 24px;
+ max-width: 1140px;
+ margin: 0 auto;
+}
+  .skill{
+    padding: 15px;
+    background-color: rgba(0, 255, 255, 0.092);
+  }
+.skill-title{
+    font-weight: 800;
+    font-size: 20px;
+}
+.anchor{
+    
+    color: black;
+}
+/* last target */
+.final{
+    max-width: 1140px;
+    margin: 15px auto;
+    text-align: center;
+   
+}
+.box{
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 4px 20px 0px bisque;
+    border-radius: 8px;
+}
+.icon{
+    padding: 35px;
+}
+.last-target{
+    font-size: 20px;
+    font-weight: 700px;
+    margin: 30px 20px;
+}
+.last-tr-des{
+    font-size: 16px;
+}
+
+.next-target div{
+max-width: 1140px;
+margin: 10px auto;
+}
+.target-anch{
+    font-size: medium;
+    color: black;
+}
+.support{
+    background-image: url(../handshake.jpg);
+    color: white;
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 35px;
+}
+.footer{
+    display: flex;
+    max-width: 1140px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 700;
 }
